@@ -1,4 +1,3 @@
-// DarkModeContext.js
 import React, { createContext, useContext, useState } from 'react';
 
 const DarkModeContext = createContext();
@@ -8,7 +7,6 @@ const DarkModeProvider = ({ children }) => {
 
     const toggleDarkMode = () => {
         setDarkMode(!darkMode);
-        // You may also save the dark mode preference in localStorage or a state management tool
     };
 
     return (
