@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDarkMode } from '../components/DarkModeContext';
-import heroimg from '../assets/images/hero1.webp'; // import heroimg from '../assets/images/hero2.webp'
+import heroimg from '../assets/images/hero3.jpg'; // import heroimg from '../assets/images/hero2.webp'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -33,7 +33,7 @@ const Hero = () => {
             data-aos="zoom-in"
             className="text-white text-xl lg:pr-[500px] pr-0"
           >
-            Through our proprietary platform, WpResidence is changing how agents and clients navigate the process of finding or selling a home.
+            Our tool improves the whole experience of buying or selling a home for both the agents and the customers.
           </p>
         </section>
       </div>
