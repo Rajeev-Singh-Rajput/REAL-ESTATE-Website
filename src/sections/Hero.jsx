@@ -19,7 +19,7 @@ const Hero = () => {
     <>
       <div className={`${darkMode ? 'dark bg-black' : 'light bg-white'}`}>
         <section
-          id="hero"
+          id='hero'
           className="w-[95%] h-[600px] m-auto bg-cover bg-center rounded-xl flex justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20"
           style={{ backgroundImage: `url(${heroimg})` }}
         >
